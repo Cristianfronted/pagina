@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway:wght@100&family=Roboto:ital,wght@0,300;1,400&family=Source+Sans+Pro&display=swap');
+body{
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav {
+    padding: 15px;
+    text-align: right;
+    background-color: rgb(252, 252, 252);
+}
+.nav span{
+    font-size: 25px;
+}
+.nav a{
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: 25px;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
+.nav a:hover{
+    background-color: black;
+    color: rgb(253, 253, 253);
+    font-weight: bold;
+}
+
+/*Siguiente seccion*/
+
+.header {
+    height: 70vh;
+    background-image: linear-gradient(to top, rgba(255, 42, 42, 0.639) 0%, rgba(0, 0, 0, 0.635) 100%),url(../3curso/img/portada2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+
+}
+
+.texto{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: aliceblue; 
+}
+.texto h1{
+    font-size:80px ;
+    margin-bottom: 15px;
+}
+.texto p{
+    font-size: 30px;
+}
+/*Siguiente seccion*/
+
+  
+.venta{
+    margin: 10px;
+    padding: 50px;
+    text-align: center;
+    background-image: linear-gradient(to top, rgba(255, 42, 42, 0.639) 0%, rgba(0, 0, 0, 0.635) 100%),url(https://media.istockphoto.com/id/1386981395/es/foto/abstracto-rojo-y-negro-son-patr%C3%B3n-claro-con-el-degradado-es-el-con-pared-de-pared-de-metal.jpg?b=1&s=170667a&w=0&k=20&c=xBqB2tEAbD2BY0yPNCu_AuoPUl9TkPUtlkZRBwzAssI=);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+.venta h2{
+    width: 100%;
+    height: 100px;
+    background-color: hsla(0, 100%, 50%, 0.288);
+    font-size: 40px;
+    text-align: center center;
+    color: aliceblue;
+    padding: 20px;
+    border-radius: 50px;
+}
+.venta img{
+    width: 250px;
+    height: 190px;
+    text-align: center;
+    border: solid 1px rgb(255, 255, 255);
+    margin: 20px;
+    border-radius: 10px;
+}
+.carta{
+    width: 300px;
+    height: auto;
+    border: solid 1px rgb(255, 255, 255);
+    text-align: center;
+    margin: 20px;
+    display: inline-block;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 19px;
+}
+.contenido{
+    padding: 10px;
+    margin: 10px;
+}
+.contenido button{
+    margin: 15px;
+    padding: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.contenido button:hover{
+    background-color: rgb(255, 0, 0);
+    font-size: 18px;
+}
+
+
+/*Siguiente seccion*/
+
+.nuestros{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 10px;
+    height: 60vh;
+    
+    
+}
+.nuestros img{
+    width: 40%;
+    border-radius: 5px;
+}
+.nuestros h2{
+    text-align: center;
+    padding: 8px;
+    width: 550px;
+    height: 100px;
+    font-size: 49px;
+    color: rgb(255, 0, 0);
+    border: solid 1px rgb(0, 0, 0);
+    border-radius: 9px;
+    background-color: rgb(255, 255, 255);
+    
+}
+.nuestros h2:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 51px;
+}
+.nuestros p{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.herramienta{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+}
+.herramienta img{
+    width: 70px;
+    height: 70px;
+    margin: 23px;
+    margin-top: 5%;
+}
+.apartado1{
+    text-align: center;
+    margin: 20px;
+    
+}
+.somos h2{
+    font-size: 46px;
+    padding: 10px;
+}
+.somos p{
+    font-size: 18px;
+    padding: 10px;
+    margin: 20px;
+    text-align: left;
+    font-weight: bold;
+}
+.herramienta img{
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    padding: 50px;
+}
+
+.raton{
+    border: 0.5px rgb(0, 0, 0) solid;
+    border-radius:100% ;
+    padding: 20px;
+    float: right;
+}  
+.herramientas2{
+    height: 20vh;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+}
+.herramientas2 img{
+    width: 150px;
+    height: 150px;    
+    padding: 50px;
+    margin: 10px;
+    align-items: center;
+}
+/*footer*/
+
+.footer{
+    width: auto;
+    height: 7vh;
+    margin: 20px;
+    background-color: black;
+    color: aliceblue;
+    
+}
+.iconos{
+    text-align: center;
+    margin: 15px;
+    padding: 20px;
+}
+
+
+
+
